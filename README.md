@@ -2,11 +2,13 @@
 
 ## Retrieve your MIDI device model and manufacturer
 
-Node.js module: [**npm install jzz**](https://www.npmjs.com/package/jzz-midi-gear).
+Node.js module: [**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear).
 
 Full development version and minified scripts are available at [**Github**](https://github.com/jazz-soft/JZZ-midi-Gear).
 
 Your questions and comments are welcome [**here**](https://jazz-soft.org).
+
+This script requires [**JZZ**](https://github.com/jazz-soft/JZZ).
 
 ## Usage
 
@@ -18,7 +20,7 @@ Your questions and comments are welcome [**here**](https://jazz-soft.org).
     <script src="JZZ.midi.Gear.js"></script>
     // ...
     // start the MIDI engine:
-    JZZ().and(function(){
+    JZZ({sysex:true}).and(function(){
       var inputs = this.info().inputs;
       var outputs = this.info().outputs;
       // enable message handlers on all MIDI-In ports:
@@ -40,3 +42,30 @@ Your questions and comments are welcome [**here**](https://jazz-soft.org).
     // in Node.js - don't forget to stop the engine when done:
     JZZ().wait(5000).close();
 
+The expected output will look similar to the following:
+
+    ID Response SysEx received:
+       port:    Roland RD
+       message: f0 7e 10 06 02 41 2b 02 00 00 00 01 00 00 f7 --
+       brand:   Roland
+       model:   RD-700GX
+       device:  Digital Stage Piano
+
+## Updates
+
+If **JZZ.midi.Gear** cannot correctly identify you device, please help us improve the script:
+
+### - tell us!
+* Post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**
+at the [GitHub issues page](https://github.com/jazz-soft/JZZ-midi-Gear/issues)
+or at the [Developer's forum](http://jazz-soft.org)
+
+or,
+
+### - do it yourself!
+* Clone the project repository from [https://github.com/jazz-soft/JZZ-midi-Gear.git](https://github.com/jazz-soft/JZZ-midi-Gear)
+* In the project root directory run **npm update**
+* Update the **data/models.txt** and/or **data/vendors.txt**
+* In the project root directory run **grunt**
+* Commit to your branch
+* Send us a pull request

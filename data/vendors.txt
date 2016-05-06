@@ -1,0 +1,23 @@
+01	Dave Smith
+04	Moog
+06	Lexicon
+07	Kurzweil
+10	Oberheim
+18	E-MU
+40	Kawai
+41	Roland
+42	Korg
+43	Yamaha
+44	Casio
+47	Akai
+51	Fostex
+52	Zoom
+55	Suzuki
+7d	(educational)
+00 01 61	Livid
+00 01 6e	Fishman
+00 01 71	Mega Lite
+00 01 76	Music Computing
+00 01 79	DJ TechTools
+00 20 08	M-Audio
+00 20 29	Novation

@@ -1,0 +1,19 @@
+{
+  "name": "jzz-midi-gear-dev",
+  "version": "0.0.0",
+  "description": "JZZ-midi-gear development",
+  "author": "jazz-soft (http://jazz-soft.net/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazz-soft/JZZ-midi-Gear.git"
+  },
+  "homepage": "http://jazz-soft.net",
+  "bugs": "http://jazz-soft.org",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "grunt": ">=0.4.5",
+    "grunt-contrib-copy": ">=1.0.0",
+    "grunt-contrib-uglify": ">=1.0.0"
+  }
+}

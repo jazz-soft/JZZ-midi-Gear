@@ -4,7 +4,7 @@
 
 Node.js module: [**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear).
 
-Full development version and minified scripts are available at [**Github**](https://github.com/jazz-soft/JZZ-midi-Gear).
+Full development version and minified scripts are available at [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear).
 
 Your questions and comments are welcome [**here**](https://jazz-soft.org).
 
@@ -56,16 +56,16 @@ The expected output will look similar to the following:
 If **JZZ.midi.Gear** cannot correctly identify you device, please help us improve the script:
 
 ### - tell us!
-* Post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**
-at the [GitHub issues page](https://github.com/jazz-soft/JZZ-midi-Gear/issues)
-or at the [Developer's forum](http://jazz-soft.org)
+* Please post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**
+at the [**GitHub issues page**](https://github.com/jazz-soft/JZZ-midi-Gear/issues)
+or at the [**Developer's forum**](http://jazz-soft.org)
 
 or,
 
 ### - do it yourself!
-* Clone the project repository from [https://github.com/jazz-soft/JZZ-midi-Gear.git](https://github.com/jazz-soft/JZZ-midi-Gear)
+* Clone the project repository from [**https://github.com/jazz-soft/JZZ-midi-Gear.git**](https://github.com/jazz-soft/JZZ-midi-Gear)
 * In the project root directory run **npm update**
 * Update the **data/models.txt** and/or **data/vendors.txt**
 * In the project root directory run **grunt**
 * Commit to your branch
-* Send us a pull request
+* Create a pull request

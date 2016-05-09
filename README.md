@@ -2,9 +2,10 @@
 
 ## Retrieve your MIDI device model and manufacturer
 
-See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html).
+See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
+(requires a MIDI insreument connected to your computer).
 
-## Notes
+## Links
 
 Node.js module: [**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear).
 

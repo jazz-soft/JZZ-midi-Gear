@@ -3,7 +3,7 @@
 ## Retrieve your MIDI device model and manufacturer
 
 See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
-(requires a MIDI insreument connected to your computer).
+(requires a MIDI insrument connected to your computer).
 
 ## Links
 

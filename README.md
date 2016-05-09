@@ -2,13 +2,17 @@
 
 ## Retrieve your MIDI device model and manufacturer
 
+See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html).
+
+## Notes
+
 Node.js module: [**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear).
 
 Full development version and minified scripts are available at [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear).
 
-Your questions and comments are welcome [**here**](https://jazz-soft.org).
-
 This script requires [**JZZ**](https://github.com/jazz-soft/JZZ).
+
+Your questions and comments are welcome [**here**](https://jazz-soft.org).
 
 ## Usage
 
@@ -46,14 +50,14 @@ The expected output will look similar to the following:
 
     ID Response SysEx received:
        port:    Roland RD
-       message: f0 7e 10 06 02 41 2b 02 00 00 00 01 00 00 f7 --
+       message: f0 7e 10 06 02 41 2b 02 00 00 00 01 00 00 f7
        brand:   Roland
        model:   RD-700GX
        device:  Digital Stage Piano
 
 ## Updates
 
-If **JZZ.midi.Gear** cannot correctly identify you device, please help us improve the script:
+If **JZZ.midi.Gear** cannot correctly identify you device, please help us fix the script:
 
 ### - tell us!
 * Please post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**

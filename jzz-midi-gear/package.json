@@ -1,6 +1,6 @@
 {
   "name": "jzz-midi-gear",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Retrieve your MIDI device model and manufacturer",
   "main": "index.js",
   "keywords": [

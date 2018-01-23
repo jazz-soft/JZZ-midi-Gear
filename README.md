@@ -5,13 +5,13 @@
 See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
 (requires a MIDI insrument connected to your computer).
 
-## Links
+## Install
 
-Node.js module: [**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear).
+[**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear)
 
-Full development version and minified scripts are available at [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear).
+**bower install jzz-midi-gear**
 
-Your questions and comments are welcome [**here**](https://jazz-soft.org).
+or get full development version and minified scripts from [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear)
 
 ## Usage
 
@@ -32,6 +32,8 @@ Your questions and comments are welcome [**here**](https://jazz-soft.org).
     require(['JZZ', 'JZZ.midi.Gear'], function(JZZ, gear) {
       // ...
     });
+
+##### //...
 
     // start the MIDI engine:
     JZZ({sysex:true}).and(function() {
@@ -56,7 +58,7 @@ Your questions and comments are welcome [**here**](https://jazz-soft.org).
     // in Node.js - don't forget to stop the engine when done:
     JZZ().wait(500).close();
 
-The expected output will look similar to the following:
+##### The expected output will look similar to the following:
 
     ID Response SysEx received:
        port:    Roland RD
@@ -83,3 +85,5 @@ or,
 * In the project root directory run **grunt**
 * Commit to your branch
 * Create a pull request
+
+Your questions and comments are welcome [**here**](https://jazz-soft.org).

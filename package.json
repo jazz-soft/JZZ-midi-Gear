@@ -1,19 +1,33 @@
 {
-  "name": "jzz-midi-gear-dev",
-  "version": "0.0.0",
-  "description": "JZZ-midi-gear development",
+  "name": "jzz-midi-gear",
+  "version": "0.0.2",
+  "description": "Retrieve your MIDI device model and manufacturer",
+  "main": "javascript/JZZ.midi.Gear.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "MIDI",
+    "midi",
+    "webmidi",
+    "webmidiapi",
+    "web-midi",
+    "web-midi-api",
+    "sysex"
+  ],
   "author": "jazz-soft (http://jazz-soft.net/)",
+  "dependencies": {
+    "jzz": "^0.4.2"
+  },
+  "devDependencies": {
+    "grunt": ">=0.4.5",
+    "grunt-contrib-uglify": "^3.3.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jazz-soft/JZZ-midi-Gear.git"
   },
   "homepage": "http://jazz-soft.net",
   "bugs": "http://jazz-soft.org",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "grunt": ">=0.4.5",
-    "grunt-contrib-copy": ">=1.0.0",
-    "grunt-contrib-uglify": ">=1.0.0"
-  }
+  "license": "MIT"
 }

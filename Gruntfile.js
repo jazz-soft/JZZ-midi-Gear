@@ -4,27 +4,18 @@ module.exports = function(grunt) {
     assemble: {
       vendors: 'data/vendors.txt',
       models: 'data/models.txt',
-      script: 'jzz-midi-gear/javascript/JZZ.midi.Gear.js'
-    },
-    copy: {
-      javascript: {
-        expand: true,
-        cwd: 'jzz-midi-gear/javascript',
-        src: '*.js',
-        dest: 'javascript'
-      }
+      script: 'javascript/JZZ.midi.Gear.js'
     },
     uglify: {
       javascript: {
         expand: true,
-        cwd: 'jzz-midi-gear/javascript',
+        cwd: 'javascript',
         src: '*.js',
         dest: 'minified'
       }
     }
   });
-  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.registerTask('assemble', require('./data/assemble.js')(grunt));
-  grunt.registerTask('default', ['assemble', 'copy', 'uglify']);
+  grunt.registerTask('default', ['assemble', 'uglify']);
 };

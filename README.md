@@ -11,25 +11,34 @@ Node.js module: [**npm install jzz-midi-gear**](https://www.npmjs.com/package/jz
 
 Full development version and minified scripts are available at [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear).
 
-This script requires [**JZZ**](https://github.com/jazz-soft/JZZ).
-
 Your questions and comments are welcome [**here**](https://jazz-soft.org).
 
 ## Usage
 
-    // in Node.js:
-    var JZZ = require('jzz');
-    require('jzz-midi-gear')(JZZ);
-    // or in HTML:
+##### Plain HTML
+
     <script src="JZZ.js"></script>
     <script src="JZZ.midi.Gear.js"></script>
-    // ...
+    //...
+
+##### CommonJS (Browserify and Node.js command line applications)
+
+    var JZZ = require('jzz');
+    require('jzz-midi-gear')(JZZ);
+    //...
+
+##### AMD
+
+    require(['JZZ', 'JZZ.midi.Gear'], function(JZZ, gear) {
+      // ...
+    });
+
     // start the MIDI engine:
-    JZZ({sysex:true}).and(function(){
+    JZZ({sysex:true}).and(function() {
       var inputs = this.info().inputs;
       var outputs = this.info().outputs;
       // enable message handlers on all MIDI-In ports:
-      for (var i in inputs) this.openMidiIn(i).connect(function(msg){
+      for (var i in inputs) this.openMidiIn(i).connect(function(msg) {
         if (msg.isIdResponse()) {
           var gear = msg.gearInfo();
           console.log('ID Response SysEx received:');
@@ -45,7 +54,7 @@ Your questions and comments are welcome [**here**](https://jazz-soft.org).
     });
     // ...
     // in Node.js - don't forget to stop the engine when done:
-    JZZ().wait(5000).close();
+    JZZ().wait(500).close();
 
 The expected output will look similar to the following:
 

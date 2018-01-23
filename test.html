@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JZZ.midi.Gear test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="node_modules/jzz/javascript/JZZ.js"></script>
+<script src="minified/JZZ.midi.Gear.js"></script>
+</head>
+
+<body>
+<h1>JZZ.midi.Gear test</h1>
+<pre id=out></pre>
+
+<script><!--
+var out = document.getElementById('out');
+var sent = '';
+var received = '';
+function onMidiMsg(msg) {
+  if (msg.isIdResponse()) {
+    var gear = msg.gearInfo();
+    received += ['ID Response SysEx received:',
+            '   <em>port:</em>    ' + this.name(),
+            '   <em>message:</em> ' + msg,
+            '   <em>brand:</em>   ' + gear.brand,
+            '   <em>model:</em>   ' + gear.model,
+            '   <em>device:</em>  ' + gear.descr, '', ''].join('\n');
+    out.innerHTML = sent + received + 'Please <a href=https://github.com/jazz-soft/JZZ-midi-Gear#updates>let us know</a> if any of your devices were not identified correctly!';
+  }
+}
+JZZ({sysex:true})
+   .or(function(){ out.innerHTML = 'Cannot start MIDI engine!'; })
+   .and(function(){
+      out.innerHTML = 'No ID Response SysEx received...';
+      var info = this.info();
+      for (var i in info.inputs) this.openMidiIn(i).connect(onMidiMsg);
+      for (var i in info.outputs) {
+        sent += 'Sending ID request to: ' + info.outputs[i].name + '\n';
+        this.openMidiOut(i).sxIdRequest();
+        out.innerHTML = sent + 'No ID Response SysEx received...';
+      }
+    });
+--></script>
+
+<p>
+<a href=https://jazz-soft.net>https://jazz-soft.net</a>
+</p>
+
+</body>
+</html>

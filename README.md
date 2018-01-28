@@ -7,10 +7,8 @@ See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
 
 ## Install
 
-[**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear)
-
-**bower install jzz-midi-gear**
-
+[**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear)  
+**bower install jzz-midi-gear**  
 or get full development version and minified scripts from [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear)
 
 ## Usage

@@ -61,6 +61,7 @@ var _v = {
 "R":"Zoom",
 "U":"Suzuki",
 "}":"(educational)",
+"\x01\f":"Line 6",
 "\x01a":"Livid",
 "\x01n":"Fishman",
 "\x01q":"Mega Lite",
@@ -124,6 +125,7 @@ _m["A"] = { // Roland
 ":\x01\x00\x00":{m:"FP-3",d:"Digital Piano"},
 ":\x02\x00\x00":{m:"JUNO-Di",d:"Synthesizer"},
 ";\x02\x00\x00":{m:"VP-770",d:"Vocal & Ensemble Keyboard"},
+"?\x01\x00\x00":{m:"TD-6V",d:"Percussion Sound Module"},
 "A\x01\x00\x00":{m:"DR-670",d:"Drum Machine",b:"BOSS"},
 "A\x02\x00\x00":{m:"GAIA SH-01",d:"Synthesizer"},
 "B\x00\x00\x07":{m:"SC-8820",d:"Sound Module"},
@@ -205,6 +207,8 @@ _m["A"] = { // Roland
 };
 _m["B"] = { // Korg
 "\x15\x01\x17\x00":{m:"Krome",d:"Music Workstation"},
+"\x19\x00\x00\x00":{m:"M1",d:"Music Workstation"},
+"P\x00\x0e\x00":{m:"Triton Pro",d:"Music Workstation/Sampler"},
 "h\x00\x17\x00":{m:"Kronos 61",d:"Music Workstation"},
 "}\x00\x00\x00":{m:"R3",d:"Synthesizer Vocoder"},
 "~\x00\x00\x00":{m:"microKORG XL",d:"Synthesizer"}
@@ -252,6 +256,9 @@ _m["C"] = { // Yamaha
 "\x00D+\x19":{m:"NP-31",d:"Portable Keyboard"},
 "\x00DE\x17":{m:"MM6",d:"Synthesizer"},
 "\x00Ls\x07":{m:"DTXTREME",d:"Drum Module"}
+};
+_m["\x01\f"] = { // Line 6
+"\x03\x00\x03\x00":{m:"Flextone III",d:"Guitar Effects Processor"}
 };
 _m["\x01a"] = { // Livid
 "\x01\x00\x01\x00":{m:"Brain v1",d:"Do-It-Yourself Kit"},

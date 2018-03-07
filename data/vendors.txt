@@ -14,6 +14,7 @@
 52	Zoom
 55	Suzuki
 7d	(educational)
+00 01 0c	Line 6
 00 01 61	Livid
 00 01 6e	Fishman
 00 01 71	Mega Lite

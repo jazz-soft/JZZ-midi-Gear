@@ -49,6 +49,7 @@ f0 7e 10 06 02 41 39 02 02 00 00 01 00 02 f7	Roland	V-Piano Grand (GP-7)	Digital
 f0 7e 10 06 02 41 3a 01 00 00 00 01 00 00 f7	Roland	FP-3	Digital Piano
 f0 7e 10 06 02 41 3a 02 00 00 00 03 00 00 f7	Roland	JUNO-Di	Synthesizer
 f0 7e 10 06 02 41 3b 02 00 00 00 01 00 00 f7	Roland	VP-770	Vocal & Ensemble Keyboard
+f0 7e 09 06 02 41 3f 01 00 00 01 02 00 00 f7	Roland	TD-6V	Percussion Sound Module
 f0 7e 10 06 02 41 41 01 00 00 00 02 00 00 f7	BOSS	DR-670	Drum Machine
 f0 7e 10 06 02 41 41 02 00 00 00 03 00 00 f7	Roland	GAIA SH-01	Synthesizer
 f0 7e 10 06 02 41 42 00 00 07 00 00 00 00 f7	Roland	SC-8820	Sound Module
@@ -129,6 +130,8 @@ f0 7e 00 06 02 41 6f 01 00 00 00 01 00 00 f7	Roland	FP-2	Digital Piano
 f0 7e 00 06 02 41 7a 01 00 00 00 02 00 00 f7	Roland	TD-20	Percussion Sound Module
 
 f0 7e 00 06 02 42 15 01 17 00 01 00 00 00 f7	Korg	Krome	Music Workstation
+f0 7e 00 06 02 42 19 00 00 00 13 00 01 00 f7	Korg	M1	Music Workstation
+f0 7e 00 06 02 42 50 00 0e 00 05 00 02 00 f7	Korg	Triton Pro	Music Workstation/Sampler
 f0 7e 00 06 02 42 68 00 17 00 02 00 01 00 f7	Korg	Kronos 61	Music Workstation
 f0 7e 00 06 02 42 7d 00 00 00 4f 4b 01 00 f7	Korg	R3	Synthesizer Vocoder
 f0 7e 00 06 02 42 7e 00 00 00 02 01 01 00 f7	Korg	microKORG XL	Synthesizer
@@ -175,6 +178,8 @@ f0 7e 7f 06 02 43 00 43 66 19 10 00 00 7f f7	Yamaha	P-155	Digital Piano
 f0 7e 7f 06 02 43 00 44 2b 19 10 00 00 7f f7	Yamaha	NP-31	Portable Keyboard
 f0 7e 7f 06 02 43 00 44 45 17 10 00 00 03 f7	Yamaha	MM6	Synthesizer
 f0 7e 7f 06 02 43 00 4c 73 07 00 00 00 00 f7	Yamaha	DTXTREME	Drum Module
+
+f0 7e 7f 06 02 00 01 0c 03 00 03 00 00 01 01 00 f7	Line 6	Flextone III	Guitar Effects Processor
 
 f0 7e 00 06 02 00 01 61 01 00 01 00 00 00 00 00 f7	Livid	Brain v1	Do-It-Yourself Kit
 f0 7e 00 06 02 00 01 61 01 00 02 00 00 00 00 00 f7	Livid	Ohm64	MIDI Controller

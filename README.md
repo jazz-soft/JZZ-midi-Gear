@@ -20,6 +20,12 @@ or get the full development version and minified scripts from [**GitHub**](https
     <script src="JZZ.midi.Gear.js"></script>
     //...
 
+##### CDN (always the latest version!)
+
+    <script src="https://cdn.jsdelivr.net/npm/jzz"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jzz-midi-gear"></script>
+    //...
+
 ##### CommonJS (Browserify and Node.js command line applications)
 
     var JZZ = require('jzz');

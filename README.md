@@ -79,7 +79,7 @@ If **JZZ.midi.Gear** cannot correctly identify you device, please help us fix th
 ### - tell us!
 * Please post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**
 at the [**GitHub issues page**](https://github.com/jazz-soft/JZZ-midi-Gear/issues)
-or at the [**Developer's forum**](http://jazz-soft.org)
+or at the [**Developer's forum**](https://jazz-soft.org)
 
 or,
 

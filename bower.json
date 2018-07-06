@@ -2,7 +2,7 @@
   "name": "jzz-midi-gear",
   "description": "Retrieve your MIDI device model and manufacturer",
   "authors": [
-    "jazz-soft (http://jazz-soft.net/)"
+    "jazz-soft (https://jazz-soft.net/)"
   ],
   "main": "javascript/JZZ.midi.Gear.js",
   "moduleType": [
@@ -31,6 +31,6 @@
     "Gruntfile.js"
   ],
   "dependencies": {
-    "jzz": "^0.4.4"
+    "jzz": "^0.5.0"
   }
 }

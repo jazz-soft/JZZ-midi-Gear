@@ -1,5 +1,9 @@
 # JZZ-midi-Gear
 
+[![npm](https://img.shields.io/npm/v/jzz-midi-gear.svg)](https://www.npmjs.com/package/jzz-midi-gear)
+[![Build Status](https://travis-ci.org/jazz-soft/JZZ-midi-Gear.svg?branch=master)](https://travis-ci.org/jazz-soft/JZZ-midi-Gear)
+[![Coverage](https://coveralls.io/repos/github/jazz-soft/JZZ-midi-Gear/badge.svg?branch=master)](https://coveralls.io/github/jazz-soft/JZZ-midi-Gear?branch=master)
+
 ## Retrieve your MIDI device model and manufacturer
 
 See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
@@ -7,7 +11,7 @@ See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
 
 ## Install
 
-[**npm install jzz-midi-gear**](https://www.npmjs.com/package/jzz-midi-gear)  
+**npm install jzz-midi-gear**  
 or **bower install jzz-midi-gear**  
 or **yarn add jzz-midi-gear**  
 or get the full development version and minified scripts from [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear)

@@ -29,7 +29,7 @@ JZZ.MIDI.prototype.gearInfo = function() {
   }
   var ret = { brand: _v[vnd] };
   if (!_m[vnd]) return ret;
-  for (var j = 4; j < 9; j++) {
+  for (var j = 8; j >= 4; j--) {
     var m = _m[vnd][mod.substr(0, j)];
     if (m) {
       ret.model = m.m;
@@ -40,6 +40,24 @@ JZZ.MIDI.prototype.gearInfo = function() {
   }
   return ret;
 };
+
+JZZ.MIDI.setGearInfo = function(msg, brand, model, descr) {
+  msg = JZZ.MIDI(msg);
+  if (!msg.isIdResponse()) throw RangeError('Not a valid ID response');
+  var vnd;
+  var mod;
+  if (msg[5]) {
+    vnd = _a2s(msg.slice(5, 6));
+    mod = _a2s(msg.slice(6, 14));
+  }
+  else {
+    vnd = _a2s(msg.slice(6, 8));
+    mod = _a2s(msg.slice(8, 16));
+  }
+  if (!_v[vnd]) _v[vnd] = brand;
+  if (!_m[vnd]) _m[vnd] = {};
+  _m[vnd][mod] = { b: brand, m: model, d: descr };
+}
 
 function _n2c(n) { return String.fromCharCode(n); }
 function _a2s(a) { return a.map(_n2c).join(''); }

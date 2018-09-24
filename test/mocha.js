@@ -5,7 +5,8 @@ require('..')(JZZ);
 var roland = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x41, 0x2b, 0x02, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0xf7);
 var fishman = JZZ.MIDI(0xf0, 0x7e, 0x00, 0x06, 0x02, 0x00, 0x01, 0x6e, 0x00, 0x01, 0x00, 0x01, 0x01, 0x52, 0x01, 0x00, 0xf7);
 var educat = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 0, 0xf7);
-var custom = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
+var custom1 = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
+var custom2 = JZZ.MIDI(0xf0, 0x7e, 0x00, 0x06, 0x02, 0x00, 0xff, 0xff, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
 var dummy = JZZ.MIDI(0x90, 0x40, 0x7f);
 
 describe('isIdResponse()', function() {
@@ -46,9 +47,16 @@ describe('gearInfo()', function() {
 });
 
 describe('setGearInfo()', function() {
-  it('custom', function() {
-    JZZ.MIDI.setGearInfo(custom, 'Jazz-Soft', 'Custom Instrument', 'no description');
-    var info = custom.gearInfo();
+  it('custom1', function() {
+    JZZ.MIDI.setGearInfo(custom1, 'Jazz-Soft', 'Custom Instrument', 'no description');
+    var info = custom1.gearInfo();
+    assert.equal(info.brand, 'Jazz-Soft');
+    assert.equal(info.model, 'Custom Instrument');
+    assert.equal(info.descr, 'no description');
+  });
+  it('custom2', function() {
+    JZZ.MIDI.setGearInfo(custom2, 'Jazz-Soft', 'Custom Instrument', 'no description');
+    var info = custom2.gearInfo();
     assert.equal(info.brand, 'Jazz-Soft');
     assert.equal(info.model, 'Custom Instrument');
     assert.equal(info.descr, 'no description');

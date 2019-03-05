@@ -489,6 +489,7 @@ _m["\x18"] = { // E-MU
 _m["A"] = { // Roland
 "\x02\x02\x00\x00":{m:"DR-880",d:"Drum Machine",b:"BOSS"},
 "\x04\x02\x00\x00":{m:"RD-300SX",d:"Digital Piano"},
+"\x05\x03\x00\x00":{m:"GP-10",d:"Guitar Effects Processor",b:"BOSS"},
 "\x06\x02\x00\x00":{m:"GT-8",d:"Guitar Effects Processor",b:"BOSS"},
 "\t\x02\x00\x00":{m:"TD-12",d:"Percussion Sound Module"},
 "\x0b\x02\x00\x00":{m:"GT-PRO",d:"Guitar Effects Processor",b:"BOSS"},

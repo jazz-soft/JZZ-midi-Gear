@@ -175,7 +175,8 @@ f0 7e 7f 06 02 43 00 41 7c 04 00 00 00 7f f7	Yamaha	MOTIF6	Synthesizer
 f0 7e 7f 06 02 43 00 41 7d 04 00 00 00 7f f7	Yamaha	MOTIF7	Synthesizer
 f0 7e 7f 06 02 43 00 41 7e 04 00 00 00 7f f7	Yamaha	MOTIF8	Synthesizer
 f0 7e 7f 06 02 43 00 43 2c 17 11 00 00 7f f7	Yamaha	CP33	Stage Piano
-f0 7e 7f 06 02 43 00 43 66 19 10 00 00 7f f7	Yamaha	P-155	Digital Piano 
+f0 7e 7f 06 02 43 00 43 42 15 20 00 00 00 f7	Yamaha	P-120	Digital Piano
+f0 7e 7f 06 02 43 00 43 66 19 10 00 00 7f f7	Yamaha	P-155	Digital Piano
 f0 7e 7f 06 02 43 00 44 2b 19 10 00 00 7f f7	Yamaha	NP-31	Portable Keyboard
 f0 7e 7f 06 02 43 00 44 45 17 10 00 00 03 f7	Yamaha	MM6	Synthesizer
 f0 7e 7f 06 02 43 00 4c 73 07 00 00 00 00 f7	Yamaha	DTXTREME	Drum Module

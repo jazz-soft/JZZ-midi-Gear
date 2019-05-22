@@ -11,9 +11,9 @@ See the [**online demo**](https://jazz-soft.github.io/modules/gear/index.html)
 
 ## Install
 
-**npm install jzz-midi-gear**  
-or **bower install jzz-midi-gear**  
-or **yarn add jzz-midi-gear**  
+`npm install jzz-midi-gear``  
+or `bower install jzz-midi-gear`  
+or `yarn add jzz-midi-gear`  
 or get the full development version and minified scripts from [**GitHub**](https://github.com/jazz-soft/JZZ-midi-Gear)
 
 ## Usage
@@ -88,10 +88,10 @@ or at the [**Developer's forum**](https://jazz-soft.org)
 or,
 
 ### - do it yourself!
-* Clone the project repository from [**https://github.com/jazz-soft/JZZ-midi-Gear.git**](https://github.com/jazz-soft/JZZ-midi-Gear)
-* In the project root directory run **npm update**
-* Update the **data/models.txt** and/or **data/vendors.txt**
-* In the project root directory run **grunt**
+* Clone the project repository from [`https://github.com/jazz-soft/JZZ-midi-Gear.git`](https://github.com/jazz-soft/JZZ-midi-Gear)
+* In the project root directory run `npm install`
+* Update the `data/models.txt` and/or `data/vendors.txt`
+* In the project root directory run `grunt`
 * Commit to your branch
 * Create a pull request
 

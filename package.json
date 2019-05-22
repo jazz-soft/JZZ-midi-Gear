@@ -1,10 +1,11 @@
 {
   "name": "jzz-midi-gear",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Retrieve your MIDI device model and manufacturer",
   "main": "javascript/JZZ.midi.Gear.js",
   "scripts": {
     "test": "nyc mocha",
+    "lint": "eslint javascript test",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
@@ -21,6 +22,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
+    "eslint": "^5.16.0",
     "grunt": "^1.0.4",
     "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-uglify": "^4.0.1",

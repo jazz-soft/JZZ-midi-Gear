@@ -1,6 +1,7 @@
 # JZZ-midi-Gear
 
 [![npm](https://img.shields.io/npm/v/jzz-midi-gear.svg)](https://www.npmjs.com/package/jzz-midi-gear)
+[![npm](https://img.shields.io/npm/dt/jzz-midi-gear.svg)](https://www.npmjs.com/package/jzz-midi-gear)
 [![Build Status](https://travis-ci.org/jazz-soft/JZZ-midi-Gear.svg?branch=master)](https://travis-ci.org/jazz-soft/JZZ-midi-Gear)
 [![Coverage](https://coveralls.io/repos/github/jazz-soft/JZZ-midi-Gear/badge.svg?branch=master)](https://coveralls.io/github/jazz-soft/JZZ-midi-Gear?branch=master)
 

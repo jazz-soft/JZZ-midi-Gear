@@ -360,7 +360,7 @@ var _v = {
 " \x00":"Dream SAS",
 " \x01":"Strand Lighting",
 " \x02":"Amek Div of Harman Industries",
-" \x04":"B�hm electronic",
+" \x04":"Böhm Elektronik",
 " \x06":"Trident Audio Developments",
 " \x07":"Real World Studio",
 " \b":"M-Audio",

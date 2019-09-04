@@ -294,7 +294,7 @@
 00 20 00	Dream SAS
 00 20 01	Strand Lighting
 00 20 02	Amek Div of Harman Industries
-00 20 04	B�hm electronic
+00 20 04	Böhm Elektronik
 00 20 06	Trident Audio Developments
 00 20 07	Real World Studio
 00 20 08	M-Audio

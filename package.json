@@ -18,11 +18,11 @@
   ],
   "author": "jazz-soft (https://jazz-soft.net/)",
   "dependencies": {
-    "jzz": "^0.8.5"
+    "jzz": "^0.9.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.5",
-    "eslint": "^6.1.0",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.3.0",
     "grunt": "^1.0.4",
     "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-uglify": "^4.0.1",

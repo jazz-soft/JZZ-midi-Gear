@@ -181,6 +181,9 @@ f0 7e 7f 06 02 43 00 44 2b 19 10 00 00 7f f7	Yamaha	NP-31	Portable Keyboard
 f0 7e 7f 06 02 43 00 44 45 17 10 00 00 03 f7	Yamaha	MM6	Synthesizer
 f0 7e 7f 06 02 43 00 4c 73 07 00 00 00 00 f7	Yamaha	DTXTREME	Drum Module
 
+f0 7e 00 06 02 47 25 00 19 00 01 00 00 00 f7	Akai	MPK261	Performance Keyboard Controller
+f0 7e 00 06 02 47 6d 00 19 00 01 00 00 00 f7	Akai	EWI USB	USB Wind Instrument
+
 f0 7e 7f 06 02 00 01 0c 03 00 03 00 00 01 01 00 f7	Line 6	Flextone III	Guitar Effects Processor
 
 f0 7e 00 06 02 00 01 61 01 00 01 00 00 00 00 00 f7	Livid	Brain v1	Do-It-Yourself Kit

@@ -8,6 +8,7 @@ var educat = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 0
 var custom1 = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
 var custom2 = JZZ.MIDI(0xf0, 0x7e, 0x00, 0x06, 0x02, 0x00, 0xff, 0xff, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
 var dummy = JZZ.MIDI(0x90, 0x40, 0x7f);
+var akai = JZZ.MIDI(0xf0, 0x7e, 0, 6, 2, 0x47, 0x6d, 0, 0x19, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0x4b, 0x31, 0x31, 0x31, 0x30, 0x35, 0x30, 0x32, 0x33, 0x36, 0x31, 0x31, 0x36, 0x37, 0x36, 0x20, 0xf7);
 
 describe('isIdResponse()', function() {
   it('Roland RD-700GX', function() {
@@ -36,6 +37,12 @@ describe('gearInfo()', function() {
     assert.equal(info.brand, 'Fishman');
     assert.equal(info.model, 'TriplePlay');
     assert.equal(info.descr, 'Guitar Controller');
+  });
+  it('Akai EWI USB', function() {
+    var info = akai.gearInfo();
+    assert.equal(info.brand, 'Akai');
+    assert.equal(info.model, 'EWI USB');
+    assert.equal(info.descr, 'USB Wind Instrument');
   });
   it('Educational', function() {
     var info = educat.gearInfo();

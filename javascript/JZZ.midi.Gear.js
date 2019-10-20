@@ -666,6 +666,10 @@ _m["C"] = { // Yamaha
 "\x00DE\x17":{m:"MM6",d:"Synthesizer"},
 "\x00Ls\x07":{m:"DTXTREME",d:"Drum Module"}
 };
+_m["G"] = { // Akai
+"%\x00\x19\x00":{m:"MPK261",d:"Performance Keyboard Controller"},
+"m\x00\x19\x00":{m:"EWI USB",d:"USB Wind Instrument"}
+};
 _m["\x01\f"] = { // Line 6
 "\x03\x00\x03\x00":{m:"Flextone III",d:"Guitar Effects Processor"}
 };

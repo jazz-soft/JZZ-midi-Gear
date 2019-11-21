@@ -671,7 +671,8 @@ _m["G"] = { // Akai
 "m\x00\x19\x00":{m:"EWI USB",d:"USB Wind Instrument"}
 };
 _m["\x01\f"] = { // Line 6
-"\x03\x00\x03\x00":{m:"Flextone III",d:"Guitar Effects Processor"}
+"\x03\x00\x03\x00":{m:"Flextone III",d:"Guitar Effects Processor"},
+"$\x00\x02\x00":{m:"THR30II",d:"Guitar Amp",b:"Yamaha"}
 };
 _m["\x01a"] = { // Livid
 "\x01\x00\x01\x00":{m:"Brain v1",d:"Do-It-Yourself Kit"},

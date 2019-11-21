@@ -185,6 +185,7 @@ f0 7e 00 06 02 47 25 00 19 00 01 00 00 00 f7	Akai	MPK261	Performance Keyboard Co
 f0 7e 00 06 02 47 6d 00 19 00 01 00 00 00 f7	Akai	EWI USB	USB Wind Instrument
 
 f0 7e 7f 06 02 00 01 0c 03 00 03 00 00 01 01 00 f7	Line 6	Flextone III	Guitar Effects Processor
+f0 7e 7f 06 02 00 01 0c 24 00 02 00 63 00 1e 01 f7	Yamaha	THR30II	Guitar Amp
 
 f0 7e 00 06 02 00 01 61 01 00 01 00 00 00 00 00 f7	Livid	Brain v1	Do-It-Yourself Kit
 f0 7e 00 06 02 00 01 61 01 00 02 00 00 00 00 00 f7	Livid	Ohm64	MIDI Controller

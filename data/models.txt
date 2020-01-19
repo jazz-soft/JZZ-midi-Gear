@@ -1,16 +1,64 @@
+f0 7e 01 06 02 00 21 1d 67 32 02 00 01 00 40 00 7d 4e 1f 08 00 01 f7	Ableton	Push 2	MIDI Controller
+
+f0 7e 00 06 02 47 25 00 19 00 01 00 00 00 f7	Akai	MPK261	Performance Keyboard Controller
+f0 7e 00 06 02 47 6d 00 19 00 01 00 00 00 f7	Akai	EWI USB	USB Wind Instrument
+
+f0 7e 10 06 02 41 02 02 00 00 00 06 00 00 f7	BOSS	DR-880	Drum Machine
+f0 7e 10 06 02 41 05 03 00 00 00 00 00 00 f7	BOSS	GP-10	Guitar Effects Processor
+f0 7e 00 06 02 41 06 02 00 00 00 00 00 00 f7	BOSS	GT-8	Guitar Effects Processor
+f0 7e 00 06 02 41 0b 02 00 00 00 00 00 00 f7	BOSS	GT-PRO	Guitar Effects Processor
+f0 7e 09 06 02 41 1c 01 00 00 00 02 00 00 f7	BOSS	DR-770	Drum Machine
+f0 7e 00 06 02 41 2f 02 00 00 00 01 00 00 f7	BOSS	GT-10	Guitar Effects Processor
+f0 7e 10 06 02 41 41 01 00 00 00 02 00 00 f7	BOSS	DR-670	Drum Machine
+f0 7e 10 06 02 41 59 02 00 00 00 00 00 00 f7	BOSS	BR-80	Digital Recorder
+f0 7e 00 06 02 41 60 02 00 00 00 00 00 00 f7	BOSS	GT-100	Amp Effects Processor
+
 f0 7e 00 06 02 01 25 01 00 00 21 00 00 f7	Dave Smith	Mopho	Synth Module
 
-f0 7e 7f 06 02 07 00 40 00 0a 31 2e 31 30 f7	Kurzweil	PC3LE8	Performance Controller
+f0 7e 7f 06 02 00 01 79 03 00 01 00 20 13 05 30 f7	DJ TechTools	Midi Fighter 3D	MIDI Controller
+f0 7e 7f 06 02 00 01 79 04 00 01 00 20 13 07 31 f7	DJ TechTools	Midi Fighter Spectra	MIDI Controller
+f0 7e 7f 06 02 00 01 79 05 00 01 00 20 14 01 24 f7	DJ TechTools	Midi Fighter Twister	MIDI Controller
 
 f0 7e 00 06 02 18 02 40 01 00 30 2e 34 37 f7	E-MU	Xboard 49	USB MIDI Controller
 
-f0 7e 10 06 02 41 02 02 00 00 00 06 00 00 f7	BOSS	DR-880	Drum Machine
+f0 7e 00 06 02 41 48 01 00 00 00 00 00 00 f7	Edirol	SD-90	Studio Canvas
+
+f0 7e 00 06 02 00 01 6e 00 01 00 01 01 52 01 00 f7	Fishman	TriplePlay	Guitar Controller
+f0 7e 00 06 02 00 01 6e 00 01 00 02 01 48 01 00 f7	Fishman	TriplePlay	Guitar Controller
+
+f0 7e 00 06 02 42 15 01 17 00 01 00 00 00 f7	Korg	Krome	Music Workstation
+f0 7e 00 06 02 42 19 00 00 00 13 00 01 00 f7	Korg	M1	Music Workstation
+f0 7e 00 06 02 42 50 00 0e 00 05 00 02 00 f7	Korg	Triton Pro	Music Workstation/Sampler
+f0 7e 00 06 02 42 68 00 17 00 02 00 01 00 f7	Korg	Kronos 61	Music Workstation
+f0 7e 00 06 02 42 7d 00 00 00 4f 4b 01 00 f7	Korg	R3	Synthesizer Vocoder
+f0 7e 00 06 02 42 7e 00 00 00 02 01 01 00 f7	Korg	microKORG XL	Synthesizer
+
+f0 7e 7f 06 02 07 00 40 00 0a 31 2e 31 30 f7	Kurzweil	PC3LE8	Performance Controller
+
+f0 7e 7f 06 02 00 01 0c 03 00 03 00 00 01 01 00 f7	Line 6	Flextone III	Guitar Effects Processor
+
+f0 7e 00 06 02 00 01 61 01 00 01 00 00 00 00 00 f7	Livid	Brain v1	Do-It-Yourself Kit
+f0 7e 00 06 02 00 01 61 01 00 02 00 00 00 00 00 f7	Livid	Ohm64	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 03 00 00 00 00 00 f7	Livid	block	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 04 00 00 00 00 00 f7	Livid	Code	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 07 00 00 00 00 00 f7	Livid	OhmRGB	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 08 00 00 00 00 00 f7	Livid	CNTRL:R	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 09 00 00 00 00 00 f7	Livid	Brain v2	Do-It-Yourself Kit
+f0 7e 00 06 02 00 01 61 01 00 0b 00 00 00 00 00 f7	Livid	Alias8	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 0c 00 00 00 00 00 f7	Livid	Base	MIDI Controller
+f0 7e 00 06 02 00 01 61 01 00 0d 00 00 00 00 00 f7	Livid	Brain Jr	Do-It-Yourself Kit
+
+f0 7e 7f 06 02 00 20 08 63 0e 1a 03 20 31 30 35 f7	M-Audio	Axiom 61	MIDI Controller
+
+f0 7e 00 06 02 00 01 71 01 00 10 00 00 00 00 00 f7	Mega Lite	Enlighten	DMX Control
+
+f0 7e 00 06 02 00 01 76 01 00 05 00 00 00 00 00 f7	Music Computing	DAW	MIDI Controller
+
+f0 7e 02 06 02 00 20 29 01 00 21 00 20 00 00 00 f7	Novation	Nova	Synth Module
+
 f0 7e 00 06 02 41 04 02 00 00 00 01 00 00 f7	Roland	RD-300SX	Digital Piano
-f0 7e 10 06 02 41 05 03 00 00 00 00 00 00 f7	BOSS	GP-10	Guitar Effects Processor
-f0 7e 00 06 02 41 06 02 00 00 00 00 00 00 f7	BOSS	GT-8	Guitar Effects Processor
 f0 7e 00 06 02 41 09 02 00 00 00 02 00 00 f7	Roland	TD-12	Percussion Sound Module
-f0 7e 00 06 02 41 0b 02 00 00 00 00 00 00 f7	BOSS	GT-PRO	Guitar Effects Processor
-f0 7e 10 06 02 41 10 01 00 00 00 00 00 00 f7 	Roland	XV-3080	Synth Module
+f0 7e 10 06 02 41 10 01 00 00 00 00 00 00 f7	Roland	XV-3080	Synth Module
 f0 7e 10 06 02 41 10 01 02 02 03 03 00 00 f7	Roland	FANTOM	Synthesizer
 f0 7e 10 06 02 41 14 02 00 00 00 03 00 00 f7	Roland	MC-808	Sampling Groovebox
 f0 7e 10 06 02 41 16 02 00 00 00 03 00 00 f7	Roland	SH-201	Synthesizer
@@ -33,7 +81,6 @@ f0 7e 00 06 02 41 1a 00 06 02 00 01 00 00 f7	Roland	F-100	Digital Piano
 f0 7e 00 06 02 41 1a 00 06 02 01 01 00 00 f7	Roland	F-30	Digital Piano
 f0 7e 00 06 02 41 1a 00 06 02 02 01 00 00 f7	Roland	F-50	Digital Piano
 f0 7e 00 06 02 41 1a 00 06 06 00 01 00 00 f7	Roland	HP-101	Digital Piano
-f0 7e 09 06 02 41 1c 01 00 00 00 02 00 00 f7	BOSS	DR-770	Drum Machine
 f0 7e 00 06 02 41 1c 02 00 00 00 01 00 00 f7	Roland	VG-99	V-Guitar System
 f0 7e 00 06 02 41 20 01 00 00 00 02 01 00 f7	Roland	TD-8	Percussion Sound Module
 f0 7e 10 06 02 41 21 02 00 00 00 01 00 00 f7	Roland	V-Synth GT	Synthesizer Keyboard
@@ -42,7 +89,6 @@ f0 7e 10 06 02 41 27 02 00 00 01 03 00 00 f7	Roland	Fantom-G7	Music Workstation
 f0 7e 10 06 02 41 27 02 00 00 02 03 00 00 f7	Roland	Fantom-G8	Music Workstation
 f0 7e 10 06 02 41 2b 02 00 00 00 01 00 00 f7	Roland	RD-700GX	Digital Stage Piano
 f0 7e 00 06 02 41 2c 02 00 00 00 01 00 00 f7	Roland	RD-300GX	Digital Piano
-f0 7e 00 06 02 41 2f 02 00 00 00 01 00 00 f7	BOSS	GT-10	Guitar Effects Processor
 f0 7e 10 06 02 41 33 02 00 00 00 00 00 00 f7	Roland	VS-700R	Digital Audio Workstation
 f0 7e 10 06 02 41 36 02 00 00 00 07 00 00 f7	Roland	GW-8	Workstation
 f0 7e 10 06 02 41 39 02 00 00 00 01 00 00 f7	Roland	V-Piano	Digital Piano
@@ -51,7 +97,6 @@ f0 7e 10 06 02 41 3a 01 00 00 00 01 00 00 f7	Roland	FP-3	Digital Piano
 f0 7e 10 06 02 41 3a 02 00 00 00 03 00 00 f7	Roland	JUNO-Di	Synthesizer
 f0 7e 10 06 02 41 3b 02 00 00 00 01 00 00 f7	Roland	VP-770	Vocal & Ensemble Keyboard
 f0 7e 09 06 02 41 3f 01 00 00 01 02 00 00 f7	Roland	TD-6V	Percussion Sound Module
-f0 7e 10 06 02 41 41 01 00 00 00 02 00 00 f7	BOSS	DR-670	Drum Machine
 f0 7e 10 06 02 41 41 02 00 00 00 03 00 00 f7	Roland	GAIA SH-01	Synthesizer
 f0 7e 10 06 02 41 42 00 00 07 00 00 00 00 f7	Roland	SC-8820	Sound Module
 f0 7e 10 06 02 41 42 00 00 08 00 01 00 00 f7	Roland	KR-577/977/1077	Digital Piano
@@ -102,7 +147,6 @@ f0 7e 10 06 02 41 42 00 05 03 01 01 00 00 f7	Roland	AT-30R	Organ
 f0 7e 10 06 02 41 42 00 06 03 00 01 00 00 f7	Roland	KR-277	Digital Piano
 f0 7e 10 06 02 41 42 00 07 03 00 01 00 00 f7	Roland	HPi-5	Digital Piano
 f0 7e 10 06 02 41 42 02 00 00 00 01 00 00 f7	Roland	VR-700	Combo Keyboard
-f0 7e 00 06 02 41 48 01 00 00 00 00 00 00 f7	Edirol	SD-90	Studio Canvas
 f0 7e 00 06 02 41 4a 01 00 00 00 00 00 00 f7	Roland	SH-32	Synthesizer Module
 f0 7e 10 06 02 41 4c 02 00 00 00 03 00 00 f7	Roland	JUNO-Gi	Mobile Synthesizer with Digital Recorder
 f0 7e 00 06 02 41 4d 01 00 00 00 01 00 00 f7	Roland	VK-8	Combo Organ
@@ -110,9 +154,7 @@ f0 7e 00 06 02 41 50 02 00 00 00 01 00 00 f7	Roland	RD-700NX	Digital Piano
 f0 7e 00 06 02 41 51 02 00 00 00 01 00 00 f7	Roland	RD-300NX	Digital Piano
 f0 7e 10 06 02 41 55 02 00 00 00 01 00 00 f7	Roland	JUPITER-80	Synthesizer
 f0 7e 10 06 02 41 59 01 00 00 00 03 00 00 f7	Roland	MC-909	Sampling Groovebox
-f0 7e 10 06 02 41 59 02 00 00 00 00 00 00 f7	BOSS	BR-80	Digital Recorder
 f0 7e 00 06 02 41 60 01 00 00 00 01 00 00 f7	Roland	FP-5	Digital Piano
-f0 7e 00 06 02 41 60 02 00 00 00 00 00 00 f7	BOSS	GT-100	Amp Effects Processor
 f0 7e 10 06 02 41 62 00 00 00 00 01 00 00 f7	Roland	AT-20R	Organ
 f0 7e 10 06 02 41 62 00 00 00 01 01 00 00 f7	Roland	AT-30R	Organ
 f0 7e 10 06 02 41 62 00 00 04 00 01 00 00 f7	Roland	AT-800	Organ
@@ -129,13 +171,6 @@ f0 7e 10 06 02 41 64 01 01 00 00 01 00 01 f7	Roland	JUNO-D	Synthesizer
 f0 7e 10 06 02 41 64 02 00 00 00 00 00 00 f7	Roland	INTEGRA-7	Sound Module
 f0 7e 00 06 02 41 6f 01 00 00 00 01 00 00 f7	Roland	FP-2	Digital Piano
 f0 7e 00 06 02 41 7a 01 00 00 00 02 00 00 f7	Roland	TD-20	Percussion Sound Module
-
-f0 7e 00 06 02 42 15 01 17 00 01 00 00 00 f7	Korg	Krome	Music Workstation
-f0 7e 00 06 02 42 19 00 00 00 13 00 01 00 f7	Korg	M1	Music Workstation
-f0 7e 00 06 02 42 50 00 0e 00 05 00 02 00 f7	Korg	Triton Pro	Music Workstation/Sampler
-f0 7e 00 06 02 42 68 00 17 00 02 00 01 00 f7	Korg	Kronos 61	Music Workstation
-f0 7e 00 06 02 42 7d 00 00 00 4f 4b 01 00 f7	Korg	R3	Synthesizer Vocoder
-f0 7e 00 06 02 42 7e 00 00 00 02 01 01 00 f7	Korg	microKORG XL	Synthesizer
 
 f0 7e 7f 06 02 43 00 41 00 03 00 00 00 01 f7	Yamaha	MU100/MU100R/MU128	Tone Generator
 f0 7e 7f 06 02 43 00 41 02 05 00 00 00 01 f7	Yamaha	AN200	Synthesizer
@@ -180,35 +215,4 @@ f0 7e 7f 06 02 43 00 43 66 19 10 00 00 7f f7	Yamaha	P-155	Digital Piano
 f0 7e 7f 06 02 43 00 44 2b 19 10 00 00 7f f7	Yamaha	NP-31	Portable Keyboard
 f0 7e 7f 06 02 43 00 44 45 17 10 00 00 03 f7	Yamaha	MM6	Synthesizer
 f0 7e 7f 06 02 43 00 4c 73 07 00 00 00 00 f7	Yamaha	DTXTREME	Drum Module
-
-f0 7e 00 06 02 47 25 00 19 00 01 00 00 00 f7	Akai	MPK261	Performance Keyboard Controller
-f0 7e 00 06 02 47 6d 00 19 00 01 00 00 00 f7	Akai	EWI USB	USB Wind Instrument
-
-f0 7e 7f 06 02 00 01 0c 03 00 03 00 00 01 01 00 f7	Line 6	Flextone III	Guitar Effects Processor
 f0 7e 7f 06 02 00 01 0c 24 00 02 00 63 00 1e 01 f7	Yamaha	THR30II	Guitar Amp
-
-f0 7e 00 06 02 00 01 61 01 00 01 00 00 00 00 00 f7	Livid	Brain v1	Do-It-Yourself Kit
-f0 7e 00 06 02 00 01 61 01 00 02 00 00 00 00 00 f7	Livid	Ohm64	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 03 00 00 00 00 00 f7	Livid	block	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 04 00 00 00 00 00 f7	Livid	Code	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 07 00 00 00 00 00 f7	Livid	OhmRGB	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 08 00 00 00 00 00 f7	Livid	CNTRL:R	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 09 00 00 00 00 00 f7	Livid	Brain v2	Do-It-Yourself Kit
-f0 7e 00 06 02 00 01 61 01 00 0b 00 00 00 00 00 f7	Livid	Alias8	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 0c 00 00 00 00 00 f7	Livid	Base	MIDI Controller
-f0 7e 00 06 02 00 01 61 01 00 0d 00 00 00 00 00 f7	Livid	Brain Jr	Do-It-Yourself Kit
-
-f0 7e 00 06 02 00 01 6e 00 01 00 01 01 52 01 00 f7	Fishman	TriplePlay	Guitar Controller
-f0 7e 00 06 02 00 01 6e 00 01 00 02 01 48 01 00 f7	Fishman	TriplePlay	Guitar Controller
-
-f0 7e 00 06 02 00 01 71 01 00 10 00 00 00 00 00 f7	Mega Lite	Enlighten	DMX Control
-
-f0 7e 00 06 02 00 01 76 01 00 05 00 00 00 00 00 f7	Music Computing	DAW	MIDI Controller
-
-f0 7e 7f 06 02 00 01 79 03 00 01 00 20 13 05 30 f7	DJ TechTools	Midi Fighter 3D	MIDI Controller
-f0 7e 7f 06 02 00 01 79 04 00 01 00 20 13 07 31 f7	DJ TechTools	Midi Fighter Spectra	MIDI Controller
-f0 7e 7f 06 02 00 01 79 05 00 01 00 20 14 01 24 f7	DJ TechTools	Midi Fighter Twister	MIDI Controller
-
-f0 7e 7f 06 02 00 20 08 63 0e 1a 03 20 31 30 35 f7	M-Audio	Axiom 61	MIDI Controller
-
-f0 7e 02 06 02 00 20 29 01 00 21 00 20 00 00 00 f7	Novation	Nova	Synth Module

@@ -181,7 +181,7 @@ f0 7e 7f 06 02 43 00 44 2b 19 10 00 00 7f f7	Yamaha	NP-31	Portable Keyboard
 f0 7e 7f 06 02 43 00 44 45 17 10 00 00 03 f7	Yamaha	MM6	Synthesizer
 f0 7e 7f 06 02 43 00 4c 73 07 00 00 00 00 f7	Yamaha	DTXTREME	Drum Module
 
-f0 7e 00 06 02 47 15 00 19 00 01 01 06 00 00 00 00 00 31 32 33 34 35 2d 31 32 33 34 35 36 37 38 00 00 f7	Akai	Push	MIDI Controller
+f0 7e 00 06 02 47 15 00 19 00 01 01 06 00 f7	Akai	Push	MIDI Controller
 f0 7e 00 06 02 47 25 00 19 00 01 00 00 00 f7	Akai	MPK261	Performance Keyboard Controller
 f0 7e 00 06 02 47 6d 00 19 00 01 00 00 00 f7	Akai	EWI USB	USB Wind Instrument
 
@@ -214,4 +214,4 @@ f0 7e 7f 06 02 00 20 08 63 0e 1a 03 20 31 30 35 f7	M-Audio	Axiom 61	MIDI Control
 
 f0 7e 02 06 02 00 20 29 01 00 21 00 20 00 00 00 f7	Novation	Nova	Synth Module
 
-f0 7e 01 06 02 00 21 1d 67 32 02 00 01 00 40 00 7d 4e 1f 08 00 01 f7	Ableton	Push 2	MIDI Controller
+f0 7e 01 06 02 00 21 1d 67 32 02 00 01 00 40 00 f7	Ableton	Push 2	MIDI Controller

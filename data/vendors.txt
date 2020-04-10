@@ -6,6 +6,7 @@
 06	Lexicon
 07	Kurzweil
 08	Fender
+09	MIDI9
 0a	AKG
 0b	Voyce Music
 0c	WaveFrame
@@ -26,10 +27,12 @@
 1b	Baldwin
 1c	Eventide
 1d	Inventronics
+1e	Key Concepts
 1f	Clarity
 20	Passac
 21	Proel Labs
 22	Synthaxe
+23	Stepp
 24	Hohner
 25	Twister
 26	Ketron
@@ -39,12 +42,20 @@
 2a	JEN
 2b	Solid State
 2c	Audio Vertrieb
+2d	Neve
+2e	Soundtracs
 2f	Elka
 30	Dynacord
+31	Viscount
+32	Drawmer
 33	Clavia
 34	Audio Architecture
 35	Generalmusic
+36	Cheetah Marketing
+37	C.T.M.
+38	Simmons
 39	Soundcraft
+3a	Steinberg
 3b	Wersi
 3c	AVAB
 3d	Digigram
@@ -70,9 +81,15 @@
 57	Acoustic Technical Laboratory
 59	Faith
 5a	Internet Corporation
+5c	Seekers
 5f	SD Card Association
 7d	(educational)
 00 00 01	Time/Warner
+00 00 02	Advanced Gravis
+00 00 03	Media Vision
+00 00 04	Dornes Research Group
+00 00 05	K-Muse
+00 00 06	Stypher
 00 00 07	Digital Music
 00 00 08	IOTA Systems
 00 00 09	New England Digital
@@ -81,8 +98,11 @@
 00 00 0c	Southern Music Systems
 00 00 0d	Lake Butler Sound Company
 00 00 0e	Alesis Studio Electronics
+00 00 0f	Sound Creation
 00 00 10	DOD Electronics
 00 00 11	Studer-Editech
+00 00 12	Sonus
+00 00 13	Temporal Acuity Products
 00 00 14	Perfect Fretworks
 00 00 15	KAT
 00 00 16	Opcode Systems
@@ -97,9 +117,13 @@
 00 00 1f	Zeta Systems
 00 00 20	Axxes
 00 00 21	Orban
+00 00 22	Indian Valley
+00 00 23	Triton
 00 00 24	KTI
 00 00 25	Breakaway Technologies
 00 00 26	Leprecon
+00 00 27	Harrison Systems
+00 00 28	Future Lab
 00 00 29	Rocktron
 00 00 2a	PianoDisc
 00 00 2b	Cannon
@@ -114,6 +138,7 @@
 00 00 34	Broderbund
 00 00 35	Allen Organ Co.
 00 00 36	Reserved
+00 00 37	Music Quest
 00 00 38	Aphex
 00 00 39	Gallien Krueger
 00 00 3a	IBM
@@ -127,9 +152,13 @@
 00 00 42	Mindscape
 00 00 43	Russ Jones Marketing
 00 00 44	Intone
+00 00 45	Advanced Remote Technologies
+00 00 46	White Instruments
 00 00 47	GT Electronics
+00 00 48	Pacific Research & Engineering
 00 00 49	Timeline Vista
 00 00 4a	Mesa Boogie
+00 00 4b	FSLI
 00 00 4c	Sequoia Development
 00 00 4d	Studio Electronics
 00 00 4e	Euphonix
@@ -194,6 +223,7 @@
 00 01 0a	Microsoft
 00 01 0b	Sonic Foundry
 00 01 0c	Line 6
+00 01 0d	Beatnik
 00 01 0e	Van Koevering
 00 01 0f	Altech Systems
 00 01 10	S & S Research
@@ -221,6 +251,7 @@
 00 01 26	Antares Systems
 00 01 27	Angel Software
 00 01 28	St Louis Music
+00 01 29	Passport Music Software
 00 01 2a	Ashley Audio
 00 01 2b	Vari-Lite
 00 01 2c	Summit Audio
@@ -231,49 +262,105 @@
 00 01 31	Nearfield Research
 00 01 32	FM7
 00 01 33	Swivel Systems
+00 01 34	Hyperactive Audio Systems
 00 01 35	MidiLite
 00 01 36	Radikal Technologies
+00 01 37	Roger Linn Design
+00 01 38	TC-Helicon Vocal Technologies
+00 01 39	Event Electronics
+00 01 3a	Sonic Network
+00 01 3b	Realtime Music Solutions
+00 01 3c	Apogee Digital
+00 01 3d	Classical Organs
+00 01 3e	Microtools
 00 01 3f	Numark Industries
+00 01 40	Frontier Design Group
+00 01 41	Recordare
+00 01 42	Starr Labs
+00 01 43	Voyager Sound
+00 01 44	Manifold Labs
+00 01 45	Aviom
+00 01 46	Mixmeister Technology
+00 01 47	Notation Software
+00 01 48	Mercurial Communications
+00 01 49	Wave Arts
+00 01 4a	Logic Sequencing Devices
+00 01 4b	Axess Electronics
+00 01 4c	Muse Research
+00 01 4d	Open Labs
+00 01 4e	Guillemot
+00 01 4f	Samson Technologies
 00 01 50	Electronic Theatre Controls
+00 01 51	Blackberry
+00 01 52	Mobileer
 00 01 53	Synthogy
 00 01 54	Lynx Studio Technology
 00 01 55	Damage Control Engineering
+00 01 56	Yost Engineering
+00 01 57	Brooks & Forsman Designs
+00 01 58	Infinite Response
+00 01 59	Garritan
+00 01 5a	Plogue Art et Technologie
 00 01 5b	RJM Music Technology
+00 01 5c	Custom Solutions Software
+00 01 5d	Sonarcana
+00 01 5e	Centrance
 00 01 5f	Kesumo
 00 01 60	Stanton
 00 01 61	Livid
+00 01 62	First Act
 00 01 63	Pygraphics
+00 01 64	Panadigm Innovations
 00 01 65	Avedis Zildjian
+00 01 66	Auvital Music
+00 01 67	You Rock Guitar
 00 01 68	Chris Grigg Designs
+00 01 69	Slate Digital
+00 01 6a	Mixware
+00 01 6b	Social Entropy
 00 01 6c	Source Audio
+00 01 6d	Ernie Ball
 00 01 6e	Fishman
+00 01 6f	Custom Audio Electronics
 00 01 70	American Audio
 00 01 71	Mega Lite
 00 01 72	Kilpatrick Audio
 00 01 73	iConnectivity
 00 01 74	Fractal Audio
+00 01 75	NetLogic Microsystems
 00 01 76	Music Computing
 00 01 77	Nektar Technology
+00 01 78	Zenph Sound Innovations
 00 01 79	DJ TechTools
+00 01 7a	Rezonance Labs
 00 01 7b	Decibel Eleven
+00 01 7c	CNMAT
 00 01 7d	Media Overkill
+00 01 7e	Confusion Studios
 00 01 7f	moForte
 00 02 00	Miselu
+00 02 01	Amelia's Compass
 00 02 02	Zivix
 00 02 03	Artiphon
+00 02 04	Synclavier Digital
+00 02 05	Light & Sound Control Devices
 00 02 06	Retronyms
 00 02 07	JS Technologies
 00 02 08	Quicco Sound
 00 02 09	A-Designs Audio
+00 02 0a	McCarthy Music
 00 02 0b	Denon DJ
 00 02 0c	Keith Robert Murray
 00 02 0d	Google
 00 02 0e	ISP Technologies
+00 02 0f	Abstrakt Instruments
 00 02 10	Meris
 00 02 11	Sensorpoint
 00 02 12	Hi-Z Labs
 00 02 13	Imitone
 00 02 14	Intellijel Designs
+00 02 15	Dasz Instruments
+00 02 16	Remidi
 00 02 17	Disaster Area Designs
 00 02 18	Universal Audio
 00 02 19	Carter Duncan
@@ -281,7 +368,8 @@
 00 02 1b	Cantux Research
 00 02 1c	Hummel Technologies
 00 02 1d	Sensel
-00 02 1e	Madrona Labs
+00 02 1e	DBML Group
+00 02 1f	Madrona Labs
 00 02 20	Mesa Boogie
 00 02 21	Effigy Labs
 00 02 22	MK2 Image
@@ -291,10 +379,20 @@
 00 02 26	Electro-Harmonix
 00 02 27	RnD64
 00 02 28	Neunaber Technology
+00 02 29	Kaom
+00 02 2a	Hallowell
+00 02 2b	Sound Devices
+00 02 2c	Spectrasonics
+00 02 2d	Second Sound
+00 02 2e	8eo
+00 02 2f	VIDVOX
+00 02 30	Matthews Effects
 00 20 00	Dream SAS
 00 20 01	Strand Lighting
 00 20 02	Amek Div of Harman Industries
+00 20 03	Casa Di Risparmio Di Loreto
 00 20 04	Böhm Elektronik
+00 20 05	Syntec Digital Audio
 00 20 06	Trident Audio Developments
 00 20 07	Real World Studio
 00 20 08	M-Audio
@@ -307,13 +405,16 @@
 00 20 0f	Zero 88 Lighting
 00 20 10	Micon Audio Electronics
 00 20 11	Forefront Technology
+00 20 12	Studio Audio and Video
 00 20 13	Kenton Electronics
+00 20 14	Celco
 00 20 15	ADB
 00 20 16	Marshall Products
 00 20 17	DDA
 00 20 18	BSS Audio
 00 20 19	MA Lighting Technology
 00 20 1a	Fatar
+00 20 1b	QSC Audio Products
 00 20 1c	Artisan Clasic Organ
 00 20 1d	Orla
 00 20 1e	Pinnacle Audio
@@ -344,38 +445,101 @@
 00 20 37	Proel
 00 20 38	IBK MIDI
 00 20 39	IRCAM
+00 20 3a	Propellerhead Software
 00 20 3b	Red Sound Systems
 00 20 3c	Elektron
 00 20 3d	Sintefex Audio
 00 20 3e	MAM
 00 20 3f	Amsaro
+00 20 40	Lanbox
 00 20 41	Mode Machines
+00 20 42	DSP Arts
 00 20 43	Phil Rees Music Tech
+00 20 44	Stamer Musikanlagen
+00 20 45	Musical Muntaner
+00 20 46	C-Mexx Software
+00 20 47	Klavis Technologies
+00 20 48	Noteheads
+00 20 49	Algorithmix
+00 20 4a	Skrydstrup R&D
+00 20 4b	Professional Audio
+00 20 4c	NewWave Labs
+00 20 4d	Vermona
+00 20 4e	Nokia
+00 20 4f	Wave Idea
+00 20 50	Hartmann
+00 20 51	Lion's Tracs
+00 20 52	Analogue Systems
+00 20 53	Focal-JMlab
 00 20 54	Ringway Electronics
+00 20 55	Faith Technologies
+00 20 56	Showworks
 00 20 57	Manikin Electronic
 00 20 58	1 Come Tech
+00 20 59	Phonic
+00 20 5a	Dolby Australia
+00 20 5b	Silansys Technologies
+00 20 5c	Winbond Electronics
+00 20 5d	Cinetix Medien und Interface
+00 20 5e	A&G Soluzioni Digitali
 00 20 5f	Sequentix
+00 20 60	Oram Pro Audio
+00 20 61	Be4
+00 20 62	Infection Music
 00 20 63	Central Music
+00 20 64	genoQs Machines
+00 20 65	Medialon
+00 20 66	Waves Audio
+00 20 67	Jerash Labs
+00 20 68	Da Fact
 00 20 69	Elby Designs
+00 20 6a	Spectral Audio
 00 20 6b	Arturia
+00 20 6c	Vixid
+00 20 6d	C-Thru Music
 00 20 6e	Ya Horng Electronic
+00 20 6f	SM Pro Audio
 00 20 70	OTO Machines
+00 20 71	ELZAB
 00 20 72	Blackstar Amplification
 00 20 73	M3i Technologies
+00 20 74	Gemalto
+00 20 75	Prostage
 00 20 76	Teenage Engineering
+00 20 77	Tobias Erichsen Consulting
+00 20 78	Nixer
+00 20 79	Hanpin Electron
 00 20 7a	R. Sowa
+00 20 7b	Beyond Music
 00 20 7c	Kiss Box
+00 20 7d	Misa Digital Technologies
+00 20 7e	AI Musics Technology
 00 20 7f	Serato
 00 21 00	Limex
+00 21 01	Kyodday
 00 21 02	Mutable Instruments
+00 21 03	PreSonus Software
+00 21 04	Ingenico
+00 21 05	Fairlight Instruments
+00 21 06	Musicom Lab
+00 21 07	Modal Electronics
+00 21 08	RWA
 00 21 09	Native Instruments
+00 21 0a	Naonext
+00 21 0b	MFB
 00 21 0c	Teknel Research
 00 21 0d	Ploytec
 00 21 0e	Surfin Kangaroo Studio
+00 21 0f	Philips Electronics
 00 21 10	ROLI
 00 21 11	Panda-Audio
 00 21 12	BauM Software
+00 21 13	Machinewerks
+00 21 14	Xiamen Elane Electronics
+00 21 15	Marshall Amplification
 00 21 16	Kiwitechnics
+00 21 17	Rob Papen
+00 21 18	Spicetone
 00 21 19	V3Sound
 00 21 1a	IK Multimedia
 00 21 1b	Novalia
@@ -383,6 +547,7 @@
 00 21 1d	Ableton
 00 21 1e	Dtronics
 00 21 1f	ZAQ Audio
+00 21 20	Muabaobao Education Technology
 00 21 21	Flux Effects
 00 21 22	Audiothingies
 00 21 23	Retrokits
@@ -394,6 +559,7 @@
 00 21 29	Hornberg Research
 00 21 2a	Sonic Potions
 00 21 2b	Audiofront
+00 21 2c	Fred's Lab
 00 21 2d	Audio Modeling
 00 21 2e	C. Bechstein Digital
 00 21 2f	Motas Electronics
@@ -407,6 +573,20 @@
 00 21 37	Gigrig
 00 21 38	ALM
 00 21 39	CH Sound Design
+00 21 3a	Beat Bars
+00 21 3b	Blokas
+00 21 3c	GEWA Music
+00 21 3d	dadamachines
+00 21 3e	Augmented Instruments
+00 21 3f	Supercritical
+00 21 40	Genki Instruments
+00 21 41	Marienberg Devices
+00 21 42	Supperware
+00 21 43	Imoxplus
+00 21 44	Swapp Technologies
+00 21 45	Electra One
+00 21 46	Digital Clef
+00 21 47	Paul Whittington Group
 00 40 00	Crimson Technology
 00 40 01	Softbank
 00 40 03	D&M Holdings

@@ -79,7 +79,7 @@ or get the full development version and minified scripts from [**GitHub**](https
 
 ## Updates
 
-If **JZZ.midi.Gear** cannot correctly identify you device, please help us fix the script:
+If **JZZ.midi.Gear** cannot correctly identify your device, please help us fix the script:
 
 ### - tell us!
 * Please post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**

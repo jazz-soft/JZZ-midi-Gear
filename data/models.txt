@@ -133,6 +133,8 @@ f0 7e 00 06 02 41 7a 01 00 00 00 02 00 00 f7	Roland	TD-20	Percussion Sound Modul
 f0 7e 00 06 02 42 15 01 17 00 01 00 00 00 f7	Korg	Krome	Music Workstation
 f0 7e 00 06 02 42 19 00 00 00 13 00 01 00 f7	Korg	M1	Music Workstation
 f0 7e 00 06 02 42 50 00 0e 00 05 00 02 00 f7	Korg	Triton Pro	Music Workstation/Sampler
+f0 7e 00 06 02 42 50 00 3d 00 00 00 01 00 f7	Korg	Triton Extreme	Music Workstation/Sampler
+f0 7e 7f 06 02 42 60 00 65 00 01 03 01 00 f7	Korg	Pa1000	Professional Arranger
 f0 7e 00 06 02 42 68 00 17 00 02 00 01 00 f7	Korg	Kronos 61	Music Workstation
 f0 7e 00 06 02 42 7d 00 00 00 4f 4b 01 00 f7	Korg	R3	Synthesizer Vocoder
 f0 7e 00 06 02 42 7e 00 00 00 02 01 01 00 f7	Korg	microKORG XL	Synthesizer

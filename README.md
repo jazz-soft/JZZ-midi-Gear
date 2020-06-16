@@ -25,10 +25,16 @@ or get the full development version and minified scripts from [**GitHub**](https
     <script src="JZZ.midi.Gear.js"></script>
     //...
 
-##### CDN (always the latest version!)
+##### CDN (jsdelivr)
 
     <script src="https://cdn.jsdelivr.net/npm/jzz"></script>
     <script src="https://cdn.jsdelivr.net/npm/jzz-midi-gear"></script>
+    //...
+
+##### CDN (unpkg)
+
+    <script src="https://unpkg.com/jzz"></script>
+    <script src="https://unpkg.com/jzz-midi-gear"></script>
     //...
 
 ##### CommonJS (Browserify and Node.js command line applications)

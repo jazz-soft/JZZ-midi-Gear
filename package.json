@@ -1,6 +1,6 @@
 {
   "name": "jzz-midi-gear",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Retrieve your MIDI device model and manufacturer",
   "main": "javascript/JZZ.midi.Gear.js",
   "scripts": {
@@ -18,16 +18,16 @@
   ],
   "author": "jazz-soft (https://jazz-soft.net/)",
   "dependencies": {
-    "jzz": "^1.0.5"
+    "jzz": "^1.0.8"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
-    "eslint": "^7.0.0",
+    "eslint": "^7.2.0",
     "grunt": "^1.1.0",
     "grunt-contrib-jshint": "^2.1.0",
     "grunt-contrib-uglify": "^4.0.1",
-    "mocha": "^7.1.2",
-    "nyc": "^15.0.1"
+    "mocha": "^8.0.1",
+    "nyc": "^15.1.0"
   },
   "repository": {
     "type": "git",

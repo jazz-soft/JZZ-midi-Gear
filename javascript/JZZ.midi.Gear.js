@@ -797,6 +797,8 @@ _m["B"] = { // Korg
 "\x15\x01\x17\x00":{m:"Krome",d:"Music Workstation"},
 "\x19\x00\x00\x00":{m:"M1",d:"Music Workstation"},
 "P\x00\x0e\x00":{m:"Triton Pro",d:"Music Workstation/Sampler"},
+"P\x00=\x00":{m:"Triton Extreme",d:"Music Workstation/Sampler"},
+"`\x00e\x00":{m:"Pa1000",d:"Professional Arranger"},
 "h\x00\x17\x00":{m:"Kronos 61",d:"Music Workstation"},
 "}\x00\x00\x00":{m:"R3",d:"Synthesizer Vocoder"},
 "~\x00\x00\x00":{m:"microKORG XL",d:"Synthesizer"}

@@ -21,67 +21,81 @@ or get the full development version and minified scripts from [**GitHub**](https
 
 ##### Plain HTML
 
-    <script src="JZZ.js"></script>
-    <script src="JZZ.midi.Gear.js"></script>
-    //...
+```html
+<script src="JZZ.js"></script>
+<script src="JZZ.midi.Gear.js"></script>
+//...
+```
 
 ##### CDN (jsdelivr)
 
-    <script src="https://cdn.jsdelivr.net/npm/jzz"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jzz-midi-gear"></script>
-    //...
+```html
+<script src="https://cdn.jsdelivr.net/npm/jzz"></script>
+<script src="https://cdn.jsdelivr.net/npm/jzz-midi-gear"></script>
+//...
+```
 
 ##### CDN (unpkg)
 
-    <script src="https://unpkg.com/jzz"></script>
-    <script src="https://unpkg.com/jzz-midi-gear"></script>
-    //...
+```html
+<script src="https://unpkg.com/jzz"></script>
+<script src="https://unpkg.com/jzz-midi-gear"></script>
+//...
+```
 
 ##### CommonJS (Browserify and Node.js command line applications)
 
-    var JZZ = require('jzz');
-    require('jzz-midi-gear')(JZZ);
-    //...
+```js
+var JZZ = require('jzz');
+require('jzz-midi-gear')(JZZ);
+//...
+```
 
 ##### AMD
 
-    require(['JZZ', 'JZZ.midi.Gear'], function(JZZ, gear) {
-      // ...
-    });
+```js
+require(['JZZ', 'JZZ.midi.Gear'], function(JZZ, gear) {
+  // ...
+});
+```
 
 ##### //...
 
-    // start the MIDI engine:
-    JZZ({sysex:true}).and(function() {
-      var inputs = this.info().inputs;
-      var outputs = this.info().outputs;
-      // enable message handlers on all MIDI-In ports:
-      for (var i in inputs) this.openMidiIn(i).connect(function(msg) {
-        if (msg.isIdResponse()) {
-          var gear = msg.gearInfo();
-          console.log('ID Response SysEx received:');
-          console.log('   port:    ' + this.name());
-          console.log('   message: ' + msg);
-          console.log('   brand:   ' + gear.brand);
-          console.log('   model:   ' + gear.model);
-          console.log('   device:  ' + gear.descr);
-        }
-      });
-      // send the ID Request SysEx to all MIDI-Out ports:
-      for (var i in outputs) this.openMidiOut(i).sxIdRequest();
-    });
-    // ...
-    // in Node.js - don't forget to stop the engine when done:
-    JZZ().wait(500).close();
+```js
+// start the MIDI engine:
+JZZ({sysex:true}).and(function() {
+  var inputs = this.info().inputs;
+  var outputs = this.info().outputs;
+  // enable message handlers on all MIDI-In ports:
+  for (var i in inputs) this.openMidiIn(i).connect(function(msg) {
+    if (msg.isIdResponse()) {
+      var gear = msg.gearInfo();
+      console.log('ID Response SysEx received:');
+      console.log('   port:    ' + this.name());
+      console.log('   message: ' + msg);
+      console.log('   brand:   ' + gear.brand);
+      console.log('   model:   ' + gear.model);
+      console.log('   device:  ' + gear.descr);
+    }
+  });
+  // send the ID Request SysEx to all MIDI-Out ports:
+  for (var i in outputs) this.openMidiOut(i).sxIdRequest();
+});
+// ...
+// in Node.js - don't forget to stop the engine when done:
+JZZ().wait(500).close();
+```
 
 ##### The expected output will look similar to the following:
 
-    ID Response SysEx received:
-       port:    Roland RD
-       message: f0 7e 10 06 02 41 2b 02 00 00 00 01 00 00 f7
-       brand:   Roland
-       model:   RD-700GX
-       device:  Digital Stage Piano
+```
+ID Response SysEx received:
+   port:    Roland RD
+   message: f0 7e 10 06 02 41 2b 02 00 00 00 01 00 00 f7
+   brand:   Roland
+   model:   RD-700GX
+   device:  Digital Stage Piano
+```
 
 ## Updates
 

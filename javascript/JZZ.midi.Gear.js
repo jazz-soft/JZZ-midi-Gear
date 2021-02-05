@@ -666,6 +666,10 @@ _m["\x07"] = { // Kurzweil
 _m["\x18"] = { // E-MU
 "\x02@\x01\x00":{m:"Xboard 49",d:"USB MIDI Controller"}
 };
+_m[">"] = { // Waldorf
+"\x0e\x00\t\x00":{m:"Microwave XT 2",d:"Synth Module"},
+"\x13\x00\x00\x00":{m:"Blofeld",d:"Synth Module"}
+};
 _m["A"] = { // Roland
 "\x02\x02\x00\x00":{m:"DR-880",d:"Drum Machine",b:"BOSS"},
 "\x04\x02\x00\x00":{m:"RD-300SX",d:"Digital Piano"},

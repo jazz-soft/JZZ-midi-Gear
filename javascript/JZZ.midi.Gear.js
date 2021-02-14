@@ -11,15 +11,21 @@
   }
 })(this, function(JZZ) {
 
+function waldorf(x) { return x[2] == 6 && x[3] == 2 && x[4] == 62; }
+
 JZZ.MIDI.prototype.isIdResponse = function() {
-  return this[0] == 0xf0 && this[1] == 0x7e && this[3] == 6 && this[4] == 2 && this[this.length-1] == 0xf7 && this.length > 10;
+  return this[0] == 0xf0 && this[1] == 0x7e && (this[3] == 6 && this[4] == 2 || waldorf(this)) && this[this.length-1] == 0xf7 && this.length > 10;
 };
 
 JZZ.MIDI.prototype.gearInfo = function() {
   if (!this.isIdResponse()) return undefined;
   var vnd;
   var mod;
-  if (this[5]) {
+  if (waldorf(this)) {
+    vnd = _a2s(this.slice(4, 5));
+    mod = _a2s(this.slice(5, 13));
+  }
+  else if (this[5]) {
     vnd = _a2s(this.slice(5, 6));
     mod = _a2s(this.slice(6, 14));
   }
@@ -668,6 +674,7 @@ _m["\x18"] = { // E-MU
 };
 _m[">"] = { // Waldorf
 "\x0e\x00\t\x00":{m:"Microwave XT 2",d:"Synth Module"},
+"\x0e\x00\x0b\x00":{m:"Microwave XT",d:"Synth Module"},
 "\x13\x00\x00\x00":{m:"Blofeld",d:"Synth Module"}
 };
 _m["A"] = { // Roland

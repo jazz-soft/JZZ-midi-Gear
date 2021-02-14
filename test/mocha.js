@@ -4,6 +4,7 @@ require('..')(JZZ);
 
 var roland = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x41, 0x2b, 0x02, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0xf7);
 var fishman = JZZ.MIDI(0xf0, 0x7e, 0x00, 0x06, 0x02, 0x00, 0x01, 0x6e, 0x00, 0x01, 0x00, 0x01, 0x01, 0x52, 0x01, 0x00, 0xf7);
+var waldorf = JZZ.MIDI(0xf0, 0x7e, 0x06, 0x02, 0x3e, 0x0e, 0x00, 0x0b, 0x00, 0x32, 0x2e, 0x33, 0x33, 0xf7);
 var educat = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 0, 0xf7);
 var custom1 = JZZ.MIDI(0xf0, 0x7e, 0x10, 0x06, 0x02, 0x7d, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
 var custom2 = JZZ.MIDI(0xf0, 0x7e, 0x00, 0x06, 0x02, 0x00, 0xff, 0xff, 0, 0, 0, 0, 0, 0, 0, 1, 0xf7);
@@ -16,6 +17,9 @@ describe('isIdResponse()', function() {
   });
   it('Fishman TriplePlay', function() {
     assert.equal(fishman.isIdResponse(), true);
+  });
+  it('Waldorf Microwave XT', function() {
+    assert.equal(waldorf.isIdResponse(), true);
   });
   it('Educational', function() {
     assert.equal(educat.isIdResponse(), true);
@@ -37,6 +41,12 @@ describe('gearInfo()', function() {
     assert.equal(info.brand, 'Fishman');
     assert.equal(info.model, 'TriplePlay');
     assert.equal(info.descr, 'Guitar Controller');
+  });
+  it('Waldorf Microwave XT', function() {
+    var info = waldorf.gearInfo();
+    assert.equal(info.brand, 'Waldorf');
+    assert.equal(info.model, 'Microwave XT');
+    assert.equal(info.descr, 'Synth Module');
   });
   it('Akai EWI USB', function() {
     var info = akai.gearInfo();

@@ -116,4 +116,3 @@ or,
 * Commit to your branch
 * Create a pull request
 
-Your questions and comments are welcome [**here**](https://jazz-soft.org).

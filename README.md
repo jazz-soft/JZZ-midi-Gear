@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/jzz-midi-gear.svg)](https://www.npmjs.com/package/jzz-midi-gear)
 [![npm](https://img.shields.io/npm/dt/jzz-midi-gear.svg)](https://www.npmjs.com/package/jzz-midi-gear)
-[![Build Status](https://travis-ci.com/jazz-soft/JZZ-midi-Gear.svg?branch=master)](https://travis-ci.com/jazz-soft/JZZ-midi-Gear)
+[![build](https://github.com/jazz-soft/JZZ-midi-Gear/actions/workflows/build.yml/badge.svg)](https://github.com/jazz-soft/JZZ-midi-Gear/actions)
 [![Coverage](https://coveralls.io/repos/github/jazz-soft/JZZ-midi-Gear/badge.svg?branch=master)](https://coveralls.io/github/jazz-soft/JZZ-midi-Gear?branch=master)
 
 ## Retrieve your MIDI device model and manufacturer
@@ -104,7 +104,6 @@ If **JZZ.midi.Gear** cannot correctly identify your device, please help us fix t
 ### - tell us!
 * Please post your device **model name**, **brief description**, **manufacturer**, and **ID Response SysEx message**
 at the [**GitHub issues page**](https://github.com/jazz-soft/JZZ-midi-Gear/issues)
-or at the [**Developer's forum**](https://jazz-soft.org)
 
 or,
 
@@ -115,4 +114,3 @@ or,
 * In the project root directory run `grunt`
 * Commit to your branch
 * Create a pull request
-

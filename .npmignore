@@ -2,6 +2,7 @@ data
 minified
 test
 .*
+coverage
 bower.json
 Gruntfile.js
 test.*

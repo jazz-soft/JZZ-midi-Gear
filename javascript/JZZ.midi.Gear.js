@@ -899,7 +899,8 @@ _m[" \b"] = { // M-Audio
 "c\x0e\x1a\x03":{m:"Axiom 61",d:"MIDI Controller"}
 };
 _m[" )"] = { // Novation
-"\x01\x00!\x00":{m:"Nova",d:"Synth Module"}
+"\x01\x00!\x00":{m:"Nova",d:"Synth Module"},
+"3\x00\x00\x00":{m:"Bass Station II",d:"Analog Synthesizer"}
 };
 _m["!\x1d"] = { // Ableton
 "g2\x02\x00":{m:"Push 2",d:"MIDI Controller"}

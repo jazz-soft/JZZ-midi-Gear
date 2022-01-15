@@ -1,8 +1,7 @@
+.*
 data
 minified
-.*
 coverage
-bower.json
 Gruntfile.js
 test.*
 !test

@@ -855,6 +855,7 @@ _m["C"] = { // Yamaha
 "\x00C,\x17":{m:"CP33",d:"Stage Piano"},
 "\x00CB\x15":{m:"P-120",d:"Digital Piano"},
 "\x00Cf\x19":{m:"P-155",d:"Digital Piano"},
+"\x00D'\x1f":{m:"PSS-A50",d:"Portable Keyboard"},
 "\x00D+\x19":{m:"NP-31",d:"Portable Keyboard"},
 "\x00DE\x17":{m:"MM6",d:"Synthesizer"},
 "\x00Ls\x07":{m:"DTXTREME",d:"Drum Module"}

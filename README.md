@@ -42,11 +42,20 @@ or get the full development version and minified scripts from [**GitHub**](https
 //...
 ```
 
-##### CommonJS (Browserify and Node.js command line applications)
+##### CommonJS
 
 ```js
 var JZZ = require('jzz');
 require('jzz-midi-gear')(JZZ);
+//...
+```
+
+##### TypeScript / ES6
+
+```ts
+import { JZZ } from 'jzz';
+import { Gear } from 'jzz-midi-gear';
+Gear(JZZ);
 //...
 ```
 

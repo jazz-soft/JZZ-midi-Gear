@@ -122,3 +122,7 @@ or,
 * In the project root directory run `grunt`
 * Commit to your branch
 * Create a pull request
+
+## Thanks for your support!
+[![Stargazers for @jazz-soft/JZZ-midi-Gear](https://reporoster.com/stars/jazz-soft/JZZ-midi-Gear)](https://github.com/jazz-soft/JZZ-midi-Gear/stargazers)  
+[![Forkers for @jazz-soft/JZZ-midi-Gear](https://reporoster.com/forks/jazz-soft/JZZ-midi-Gear)](https://github.com/jazz-soft/JZZ-midi-Gear/network/members)

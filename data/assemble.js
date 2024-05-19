@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       if (_x[v][m]) grunt.fail.fatal(['duplicated model id', a[0], a[1], a[2], a[3]].join(' '));
       _x[v][m] = a[1] == _v[v] ? {m:a[2], d:a[3], s:mod[i]} : {b:a[1], m:a[2], d:a[3], s:mod[i]};
       for (var j = 4; j <=8; j++) {
-        var s = m.substr(0, j);
+        var s = m.substring(0, j);
         _c[v][s] = _c[v][s] ? _c[v][s] + 1 : 1;
       }
     }
@@ -93,7 +93,7 @@ module.exports = function(grunt) {
       for (var k = 0; k < kk.length; k++) {
         var m;
         for (var j = 4; j < 9; j++) {
-          var s = kk[k].substr(0, j);
+          var s = kk[k].substring(0, j);
           if (_c[v][s] > 1) continue;
           m = s;
           break;

@@ -37,7 +37,7 @@ JZZ.MIDI.prototype.gearInfo = function() {
   var ret = { brand: _v[vnd] };
   if (!_m[vnd]) return ret;
   for (var j = 8; j >= 4; j--) {
-    var m = _m[vnd][mod.substr(0, j)];
+    var m = _m[vnd][mod.substring(0, j)];
     if (m) {
       ret.model = m.m;
       ret.descr = m.d;

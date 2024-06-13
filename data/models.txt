@@ -190,6 +190,7 @@ f0 7e 7f 06 02 43 00 4c 73 07 00 00 00 00 f7	Yamaha	DTXTREME	Drum Module
 
 f0 7e 00 06 02 47 15 00 19 00 01 01 06 00 f7	Akai	Push	MIDI Controller
 f0 7e 00 06 02 47 25 00 19 00 01 00 00 00 f7	Akai	MPK261	Performance Keyboard Controller
+f0 7e 7f 06 02 47 50 00 19 00 00 02 03 00 00 00 00 00 45 38 32 33 30 38 32 35 35 35 37 30 30 31 36 00 f7	Akai	MPK Mini Play MK3	MIDI Keyboard Controller
 f0 7e 00 06 02 47 6d 00 19 00 01 00 00 00 f7	Akai	EWI USB	USB Wind Instrument
 
 f0 7e 7f 06 02 00 01 0c 03 00 03 00 00 01 01 00 f7	Line 6	Flextone III	Guitar Effects Processor

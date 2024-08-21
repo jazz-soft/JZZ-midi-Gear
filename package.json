@@ -21,11 +21,11 @@
     "jzz": "^1.8.5"
   },
   "devDependencies": {
-    "eslint": "^9.5.0",
+    "eslint": "^9.9.0",
     "grunt": "^1.6.1",
     "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-uglify": "^5.2.2",
-    "mocha": "^10.5.1",
+    "mocha": "^10.7.3",
     "nyc": "^17.0.0"
   },
   "repository": {
